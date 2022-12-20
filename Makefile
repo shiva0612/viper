@@ -1,5 +1,5 @@
 
-.PHONY: load_config_from_json override_from_env auto_reload_config
+.PHONY: load_config_from_json override_from_env auto_reload_config 
 
 load_config_from_json:
 	cd load_config_from_json && go run main.go
