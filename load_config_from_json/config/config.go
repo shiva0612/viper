@@ -23,12 +23,6 @@ func LoadConfig(path string, cls interface{}) error {
 		return err
 	}
 
-	// viper.GetString()
-	// viper.GetInt()
-	// and form struct for simple things
-
-	// viper.AutomaticEnv() --> not working
-
 	err = viper.Unmarshal(cls)
 	if err != nil {
 		log.Println("error while unmarshalling: ", err.Error())

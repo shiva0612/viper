@@ -1,7 +1,7 @@
 package main
 
 import (
-	"shiva/config"
+	"shiva/load_config_from_json/config"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
